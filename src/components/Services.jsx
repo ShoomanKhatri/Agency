@@ -33,7 +33,7 @@ const Services = () => {
             </div>
 
             {/* cards */}
-            <div>
+            <div classname="mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto ">
                 {
                     services.map(service => <div key={service.id} className='px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-4 hover:border-b-4 hover:border-indigo-700 transition-all duration-300 flex  items-center justify-center h-full'>
                         <div>
